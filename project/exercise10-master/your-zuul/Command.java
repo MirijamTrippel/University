@@ -19,6 +19,7 @@
 
 public class Command
 {
+    public String command;
     private String commandWord;
     private String secondWord;
 
@@ -31,7 +32,7 @@ public class Command
      */
     public Command(String firstWord, String secondWord)
     {
-        commandWord = firstWord;
+        this.commandWord = firstWord;
         this.secondWord = secondWord;
     }
 
