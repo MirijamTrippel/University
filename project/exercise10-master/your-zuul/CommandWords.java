@@ -5,12 +5,10 @@
 
 public enum CommandWords
 {
-    GO("go"), HELP("quit"), QUIT("help"), UNKNOWN(null);
-    //private static final String[] validCommands = {"go","quit","help" };
+    GO("go"), HELP("help"), QUIT("quit"), UNKNOWN(null);
+    private static final String[] validCommands = {"go","quit","help" };
     String word;
-    private static final String[] validCommands = {
-        "go", "quit", "help"
-    };
+    
     /**
      * Constructor - initialise the command words.
      */
@@ -26,7 +24,7 @@ public enum CommandWords
      */
     public boolean isCommand(String aString)
     {
-        for (CommandWords cw : value()){
+        for (String cw : validCommands){
             if(cw.equals(aString))
                 return true;
         }
