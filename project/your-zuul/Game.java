@@ -19,6 +19,7 @@ public class Game
 {
     private Parser parser;
     private Room currentRoom;
+    private CommandWord commandWord;
 
     /**
      * Create the game and initialise its internal map.
@@ -117,26 +118,36 @@ public class Game
             return"I don't know what you mean...";     
         }
         String result = null;
-        String commandWord = command.getCommandWord();
-        if (commandWord.equals("help")) {
+        // switch statement
+        // switch command word case help <- not a string in capital letters look up enums
+        
+        // LEARN ABOUT ENUMS //https://www.w3schools.com/java/java_enums.asp
+        // fix Nullpointer
+        
+        switch(commandWord){
+            case HELP :
             result = printHelp();
-        }
-        else if (commandWord.equals("go")) {
+            break;
+            case GO :
             result = goRoom(command);
+            break;
+            case QUIT :
+            result = quit(command);
+            break;
+            case LOOK :
+            result = look();
+            break;
+            case EAT :
+            result = eat();
+            break;
+            case AMILATE :
+            result = amILate();
+            break;
         }
-        else if (commandWord.equals("quit")) {
-             result = quit(command);
-        }
-        else if (commandWord.equals("look")) {
-             result = look();
-        }
-        else if (commandWord.equals("eat")) {
-             result = eat();
-        }
-        else if (commandWord.equals("amILate")) {
-             result = amILate();
-        }
-
+        
+        
+        
+        String commandWord = command.getCommandWord();
         return result;
     }
 

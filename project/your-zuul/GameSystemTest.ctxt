@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=GameSystemTest
-comment0.text=\n\ This\ is\ a\ Game\ System\ Tests\ -\ it\ tests\ the\n\ whole\ game\ and\ the\ endpoints\ between\ user\ input\n\ and\ output\ to\ the\ console.\n\n\ @author\ \ Barne\ Kleinen\n
+comment0.text=\r\n\ This\ is\ a\ Game\ System\ Tests\ -\ it\ tests\ the\r\n\ whole\ game\ and\ the\ endpoints\ between\ user\ input\r\n\ and\ output\ to\ the\ console.\r\n\r\n\ @author\ \ Barne\ Kleinen\r\n
 comment1.params=
 comment1.target=GameSystemTest()
 comment10.params=
@@ -19,7 +19,7 @@ comment16.params=
 comment16.target=void\ amILateTest()
 comment2.params=
 comment2.target=void\ setUp()
-comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
 comment3.params=
 comment3.target=void\ testQuit()
 comment4.params=
@@ -32,8 +32,8 @@ comment7.params=
 comment7.target=void\ testGoNorth()
 comment8.params=
 comment8.target=void\ testGoWithoutDirection()
-comment8.text=\n\ version\ 1\:\ manual\ test\ case\n
+comment8.text=\r\n\ version\ 1\:\ manual\ test\ case\r\n
 comment9.params=
 comment9.target=void\ goWODirectionShouldShowError()
-comment9.text=\n\ version\ 2\:\ recorded\ test\ case\n
+comment9.text=\r\n\ version\ 2\:\ recorded\ test\ case\r\n
 numComments=17

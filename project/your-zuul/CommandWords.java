@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
  * This class is part of the "World of Zuul" application. 
  * "World of Zuul" is a very simple, text based adventure game.  
@@ -11,19 +13,31 @@
 
 public class CommandWords
 {
-    // a constant array that holds all valid command words
-    private static final String[] validCommands = {
-        "go", "quit", "help", "look", "eat", "amILate"
-    };
-
+    private HashMap<String, CommandWord> validCommands;
     /**
      * Constructor - initialise the command words.
      */
     public CommandWords()
     {
-        // nothing to do at the moment...
+        validCommands = new HashMap<>();
+        for(CommandWord command : CommandWord.values()) {
+            if(command != CommandWord.UNKNOWN) {
+                validCommands.put(command.toString(), command);
+            }
+        }
     }
 
+    public CommandWord getCommandWord(String commandWord)
+    {
+        CommandWord command = validCommands.get(commandWord);
+        if(command != null) {
+            return command;
+        }
+        else {
+            return CommandWord.UNKNOWN;
+        }
+    }
+    
     /**
      * Check whether a given String is a valid command word. 
      * @return true if a given string is a valid command,
@@ -31,22 +45,20 @@ public class CommandWords
      */
     public boolean isCommand(String aString)
     {
-        for(int i = 0; i < validCommands.length; i++) {
-            if(validCommands[i].equals(aString))
-                return true;
-        }
-        // if we get here, the string was not found in the commands
-        return false;
+        return validCommands.containsKey(aString);
     }
     
     /**
      * Print all the valid commands to the System.out.
      */
-    public String showAll(){
-        String printString = "";
-        for (String command : validCommands){
-           printString += command + " ";
+    public String showAll()
+    {
+        String command2 = "";
+        for(String command : validCommands.keySet()) {
+            System.out.print(command + "  ");
+            command2 += command + "\n";
         }
-        return printString;
+        System.out.println();
+        return command2;
     }
 }
