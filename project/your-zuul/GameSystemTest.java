@@ -56,6 +56,8 @@ public class GameSystemTest
         assertTrue("message contains command word go", output.contains("go"));
         assertTrue("message contains command word quit", output.contains("quit"));
         assertTrue("message contains command word help", output.contains("help"));
+        assertTrue("message contains command word look", output.contains("look")); // added test for command look
+        assertTrue("message contains command word eat", output.contains("eat")); // added test for command eat
     }
 
     @Test
@@ -148,4 +150,32 @@ public class GameSystemTest
         assertTrue(result.contains("south"));
         assertTrue(result.contains("west"));
     }
+
+    @Test
+    public void lookTest()
+    {
+        String result = game.processCommand("look");
+        assertTrue(result.contains("You are outside the main entrance of the university.\nExits: east south west"));
+    }
+
+    @Test
+    public void eatTest()
+    {
+        String result = game.processCommand("eat");
+        assertTrue(result.contains("You have eaten now and are not hungry any more"));
+    }
+
+    @Test
+    public void amILateTest()
+    {
+        String result = game.processCommand("amILate");
+        assertTrue(result.contains("You are late! Please, move faster"));
+    }
 }
+
+
+
+
+
+
+

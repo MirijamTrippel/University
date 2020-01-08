@@ -13,7 +13,7 @@ public class CommandWords
 {
     // a constant array that holds all valid command words
     private static final String[] validCommands = {
-        "go", "quit", "help"
+        "go", "quit", "help", "look", "eat", "amILate"
     };
 
     /**
@@ -38,31 +38,15 @@ public class CommandWords
         // if we get here, the string was not found in the commands
         return false;
     }
+    
+    /**
+     * Print all the valid commands to the System.out.
+     */
+    public String showAll(){
+        String printString = "";
+        for (String command : validCommands){
+           printString += command + " ";
+        }
+        return printString;
+    }
 }
-/*
- * 
- *public enum CommandWords
- *{
- *    GO("go"), HELP("quit"), QUIT("help"), UNKNOWN(null);
- *    //private static final String[] validCommands = {"go","quit","help" };
- *    String word;
- *    
- *
- *private CommandWords(String word)
- *{    
- *    this.word = word;
- *}
- *  
- *  
- *public boolean isCommand(String aString) //value is not working?
- *{
- *  for (CommandWords cw : value()){
- *  if(cw.equals(aString))
- *      return true;
- *  }
- *      return false;
- *}
- *
- *}
- *
- */
