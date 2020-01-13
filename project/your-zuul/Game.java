@@ -113,11 +113,8 @@ public class Game
     private String processCommand(Command command) 
     {
         boolean wantToQuit = false;
-
-        if(command.isUnknown()) {
-            return"I don't know what you mean...";     
-        }
         String result = null;
+        String commandWord = command.getCommandWord();
         // switch statement
         // switch command word case help <- not a string in capital letters look up enums
         
@@ -125,30 +122,27 @@ public class Game
         // fix Nullpointer
         
         switch(commandWord){
-            case HELP :
+            case "help":
             result = printHelp();
             break;
-            case GO :
+            case "go":
             result = goRoom(command);
             break;
-            case QUIT :
+            case "quit":
             result = quit(command);
             break;
-            case LOOK :
+            case "look":
             result = look();
             break;
-            case EAT :
+            case "eat":
             result = eat();
             break;
-            case AMILATE :
+            case "amILate":
             result = amILate();
             break;
-        }
-        
-        
-        
-        String commandWord = command.getCommandWord();
-        return result;
+            default:
+                result = "I don't know what you mean...";
+        }return result;
     }
 
     // implementations of user commands:
