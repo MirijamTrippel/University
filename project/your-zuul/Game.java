@@ -115,33 +115,28 @@ public class Game
         boolean wantToQuit = false;
         String result = null;
         String commandWord = command.getCommandWord();
-        // switch statement
-        // switch command word case help <- not a string in capital letters look up enums
-        
-        // LEARN ABOUT ENUMS //https://www.w3schools.com/java/java_enums.asp
-        // fix Nullpointer
-        
+            if(command.isUnknown()) {
+            return"I don't know what you mean...";
+        }
         switch(commandWord){
             case "help":
-            result = printHelp();
+                result = printHelp();
             break;
             case "go":
-            result = goRoom(command);
+                result = goRoom(command);
             break;
             case "quit":
-            result = quit(command);
+                result = quit(command);
             break;
             case "look":
-            result = look();
+                result = look();
             break;
             case "eat":
-            result = eat();
+                result = eat();
             break;
             case "amILate":
-            result = amILate();
+                result = amILate();
             break;
-            default:
-                result = "I don't know what you mean...";
         }return result;
     }
 
