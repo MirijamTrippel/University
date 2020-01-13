@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Set;
+import java.util.HashSet;
 /**
  * Class Room - a room in an adventure game.
  *
@@ -18,6 +19,7 @@ public class Room
 {
     private String description;
     private HashMap <String, Room> exits;
+    private HashSet <Item> items;
 
     /**
      * Create a room described "description". Initially, it has
@@ -29,6 +31,8 @@ public class Room
     {
         this.description = description;
         exits = new HashMap<>();
+        
+        items = new HashSet<>();
     }
 
     /**
@@ -44,6 +48,18 @@ public class Room
         exits.put(direction, neighbor);
     }
 
+    public void setItems (Item item){
+        items.add (item);
+    }
+    
+    public String getItems(){
+        String itemResult = "";
+        for (Item item: items){
+            itemResult += item.getItemName() + " ";
+        }
+        return itemResult;
+    }
+    
     /**
      * Return a description of the room's exits, 
      * for example, "Exits: north west".

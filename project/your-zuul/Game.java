@@ -20,7 +20,7 @@ public class Game
     private Parser parser;
     private Room currentRoom;
     private CommandWord commandWord;
-
+    private Item item;
     /**
      * Create the game and initialise its internal map.
      */
@@ -54,9 +54,35 @@ public class Game
         lab.setExits("east", office);
         office.setExits("west", lab);
 
+        createItems(outside, theater, pub, lab, office);
         currentRoom = outside;  // start game outside
     }
 
+    private void createItems(Room outside, Room theater, Room pub, Room lab, Room office){
+        Item key, dice, map, stone, saw, compass, ladder, beer, torch;
+        
+        key = new Item ("key", "This is a key, it helps to lock and open doors",10);
+        dice = new Item ("dice", "This is dice, you can get a random number with it",5);
+        map = new Item ("map", "This is a map, it helps you to find places",5);
+        stone = new Item ("stone", "This is a stone, it's here for decoration",1000);
+        saw = new Item ("saw", "This is a saw, it helps you to cut branches",200);
+        compass = new Item ("compass", "This is a compass, it helps you to define where you are at the moment",150);
+        ladder = new Item ("ladder", "This is a ladder, it helps you to climb up something",5000);
+        beer = new Item ("beer", "This is a beer, you can drink it (if you drink alcohol)",100);
+        torch = new Item ("torch", "This is a torch, it helps you to lighten places up",50);
+        
+        
+        outside.setItems(key);
+        outside.setItems(map);
+        theater.setItems(stone);
+        theater.setItems(dice);
+        lab.setItems(saw);
+        lab.setItems(compass);
+        pub.setItems(ladder);
+        pub.setItems(beer);
+        office.setItems(torch);
+    }
+    
     /**
      *  Main play routine.  Loops until end of play.
      */
