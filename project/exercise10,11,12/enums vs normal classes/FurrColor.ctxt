@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FurrColor
+comment0.text=\r\n\ Die\ Farben\ meiner\ Katzen.\ \r\n\ Kommt\ eine\ neue\ Katze\ mit\ neuer\ Farbe\ hinzu,\ kann\ ich\ die\r\n\ neue\ Farbe\ hier\ hinzuf\u00FCgen.\r\n
+comment1.params=description
+comment1.target=FurrColor(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

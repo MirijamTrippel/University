@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyCatsNoEnum
+comment0.text=\r\n\ Creates\ a\ collection\ of\ all\ my\ cats\r\n
+comment1.params=
+comment1.target=MyCatsNoEnum()
+comment1.text=Constructor
+comment2.params=
+comment2.target=java.util.HashMap\ getCats()
+comment2.text=Getter
+numComments=3

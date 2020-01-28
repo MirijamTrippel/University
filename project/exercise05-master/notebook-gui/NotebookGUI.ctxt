@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=NotebookGUI
+comment0.text=\n\ Write\ a\ description\ of\ class\ NotebookGUI\ here.\n\n\ @author\ Barne\ Kleinen\n\ @version\ Sommersemester\ 2018\n
+comment1.params=
+comment1.target=NotebookGUI()
+comment2.params=
+comment2.target=void\ makeFrame()
+comment3.params=
+comment3.target=javax.swing.JPanel\ createControlPanel()
+comment4.params=
+comment4.target=javax.swing.JPanel\ createContentPanel()
+comment5.params=comp\ panel\ x\ y\ w\ h
+comment5.target=void\ placeComp(java.awt.Component,\ javax.swing.JPanel,\ int,\ int,\ int,\ int)
+numComments=6

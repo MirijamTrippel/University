@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyCatExtended
+comment0.text=\r\n\ Diese\ Aufz\u00E4hlung\ von\ Katzen\ ist\ schon\ fortgeschrittener.\r\n\ Ich\ habe\ einen\ PRIVATEN\!\ Konstruktor\ definiert,\ bei\ dem\r\n\ den\ Katzen\ verschiedene\ Werte\ zugewiesen\ werden\ k\u00F6nnen.\r\n
+comment1.params=name\ age\ color
+comment1.target=MyCatExtended(java.lang.String,\ int,\ FurrColor)
+comment1.text=Private\ Constructor
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=A\ custom\ toString\ method\r\nNote\ how\ I\ make\ use\ of\ the\ FurrColor\ toString\ method?
+numComments=3

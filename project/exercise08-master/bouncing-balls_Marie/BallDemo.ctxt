@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BallDemo
+comment0.text=\r\n\ Class\ BallDemo\ -\ a\ short\ demonstration\ showing\ animation\ with\ the\ \r\n\ Canvas\ class.\ \r\n\r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=BallDemo()
+comment1.text=\r\n\ Create\ a\ BallDemo\ object.\ Creates\ a\ fresh\ canvas\ and\ makes\ it\ visible.\r\n
+comment2.params=NumberOfBallz
+comment2.target=void\ bounce(int)
+comment2.text=\r\n\ Simulate\ two\ bouncing\ balls\r\n
+comment3.params=NumberOfBallz
+comment3.target=void\ bounceAtRandom(int)
+comment4.params=
+comment4.target=void\ drawDemo()
+comment4.text=\r\n\ Demonstrate\ some\ of\ the\ drawing\ operations\ that\ are\r\n\ available\ on\ a\ Canvas\ object.\r\n
+comment5.params=
+comment5.target=void\ drawFrame()
+comment6.params=x
+comment6.target=void\ drawFrameLines(int)
+comment7.params=x
+comment7.target=void\ drawFrameWide(int)
+comment8.params=x
+comment8.target=void\ drawFrameThin(int)
+comment9.params=x\ y
+comment9.target=void\ drawFrameWideCustom(int,\ int)
+numComments=10

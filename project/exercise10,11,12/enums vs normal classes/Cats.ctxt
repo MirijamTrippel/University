@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Cats
+comment0.text=\r\n\ Just\ to\ demonstrate\ how\ to\ iterate\ over\ cats\r\n
+comment1.params=
+comment1.target=void\ listAllCats()
+comment1.text=List\ cats\ using\ enums
+comment2.params=
+comment2.target=void\ printCatPolly()
+comment3.params=
+comment3.target=void\ listAllCatsNoEnum()
+comment3.text=List\ cats\ NOT\ using\ enums
+comment4.params=
+comment4.target=void\ printCatPollyNoEnum()
+numComments=5

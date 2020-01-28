@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=MyCatNoEnum
+comment0.text=\r\n\ A\ regular\ Cat\ Class,\ for\ the\ NoEnum\ Version.\r\n\ At\ first\ glance\ this\ class\ looks\ almost\ the\ same\ as\ the\r\n\ enum\ version\ (MyCatExtended)\ but\ with\ this\ class\r\n\ I\ have\ not\ created\ a\ list\ of\ Cats\ yet\!\ I\ need\ to\r\n\ do\ that\ in\ another\ class.\r\n
+comment1.params=name\ age\ colorDescription
+comment1.target=MyCatNoEnum(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Student
+comment1.params=firstName\ surname
+comment1.target=Student(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getFirstName()
+comment3.params=
+comment3.target=java.lang.String\ getSurname()
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Cat
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Cat.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=myName\ myColor\ myAge\ myAmountOfFishEaten
+comment1.target=Cat(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=fish
+comment2.target=void\ eatFish(int)
+numComments=3

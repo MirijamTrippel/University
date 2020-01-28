@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Lotto
+comment0.text=\r\n\ Draw\ and\ count\ Lotto\ Numbers\r\n\ \r\n\ @author\ Barne\ Kleinen\ \r\n
+comment1.params=
+comment1.target=void\ test()
+comment2.params=
+comment2.target=java.util.Set\ drawLotto()
+comment3.params=
+comment3.target=int\ lottoDraw()
+comment4.params=i
+comment4.target=int[]\ countNumbers(int)
+comment5.params=n
+comment5.target=void\ generateAndPrintFrequencyTable(int)
+numComments=6

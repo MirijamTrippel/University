@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BallDemo
+comment0.text=\r\n\ Class\ BallDemo\ -\ a\ short\ demonstration\ showing\ animation\ with\ the\ \r\n\ Canvas\ class.\ \r\n\r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=BallDemo()
+comment1.text=\r\n\ Create\ a\ BallDemo\ object.\ Creates\ a\ fresh\ canvas\ and\ makes\ it\ visible.\r\n
+comment2.params=
+comment2.target=void\ drawFrame()
+comment3.params=x
+comment3.target=void\ drawAdaptiveFrame(int)
+comment4.params=
+comment4.target=void\ bounce()
+comment4.text=\r\n\ Simulate\ two\ bouncing\ balls\r\n
+comment5.params=
+comment5.target=void\ drawDemo()
+comment5.text=\r\n\ Demonstrate\ some\ of\ the\ drawing\ operations\ that\ are\r\n\ available\ on\ a\ Canvas\ object.\r\n
+numComments=6
