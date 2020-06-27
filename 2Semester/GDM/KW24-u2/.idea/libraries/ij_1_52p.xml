@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="ij-1.52p">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/ij-1.52p.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/ij1-patcher-0.12.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/image4j-0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-2.0.0-rc-69.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-common-0.28.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-deprecated-0.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-launcher-4.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-mesh-0.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-mesh-io-0.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-notebook-0.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-ops-0.43.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-plugins-batch-0.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-plugins-commands-0.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-plugins-tools-0.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-plugins-uploader-ssh-0.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-plugins-uploader-webdav-0.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-ui-awt-0.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-ui-swing-0.23.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-updater-0.10.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-legacy-0.35.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-legacy-0.35.2.jar!/script_templates/ImageJ_1.x/Examples" />
+      <root url="jar://$PROJECT_DIR$/../../../../Fiji.app/jars/imagej-legacy-0.35.2.jar!/script_templates/ImageJ_1.x/Skeletons" />
+    </SOURCES>
+  </library>
+</component>
